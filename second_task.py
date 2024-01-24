@@ -9,6 +9,6 @@ def get_numbers_ticket(min_num, max_num, quantity):
     roll_list.sort()
     return roll_list
 
-result = get_numbers_ticket(1, 10, 5)
-print(result)
+lottery_numbers = get_numbers_ticket(1, 49, 6)
+print("Ваші лотерейні числа:", lottery_numbers)
 
